@@ -162,7 +162,7 @@ int main(int argc, char** argv)
     EXIT(1) << "Failed to create a master detector: " << detector.error();
   }
 
-  LOG(INFO) << "Starting Mesos slave";
+  LOG(INFO) << "Starting firewall enabled Mesos slave";
 
   Files files;
   GarbageCollector gc;
